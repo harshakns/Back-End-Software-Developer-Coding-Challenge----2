@@ -4,7 +4,8 @@ Backend server for pasturemap
 
 ## INSTRUCTIONS:
 These instructions are for linux and mac os:
-It is assumed that the user has __node v.10.4.0__  and __psql (PostgreSQL) 9.5.13__ installed in their system.
+It is assumed that the user has __node v.10.4.0__  , __psql (PostgreSQL) 9.5.13__ ,__npm 6.1.0__ installed in their system.
+the system might run with older versions of above softwares but it is preferred to have these versions.
 
 
 the backend system consists of two parts
