@@ -1,0 +1,23 @@
+{
+  "name": "pastureMapBackEnd",
+  "version": "1.0.0",
+  "description": "A Backend server for querying device details",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Narasimha Sriharsha KANDURI",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "knex": "^0.15.1",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.1"
+  }
+}
