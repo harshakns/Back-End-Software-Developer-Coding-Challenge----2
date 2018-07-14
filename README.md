@@ -42,7 +42,21 @@ the backend system consists of two parts
   ```
   npm install
   ```
-* 7.To start the server run the following command and keep the terminal alive.
+* 7.open the server.js and update the host,user and password details.
+
+```
+const db = knex({
+    client: 'pg',
+    connection: {
+        host: '127.0.0.1',//your database host ip address.
+	//optional  parameter port:your port in quotes.It is a string //in case you are using different from default.
+        user: 'username',//your postgres username here in quotes. It is a string
+        password: 'password',//your postgres password here in quotes. It is a string
+        database: 'pastureMapBackEnd'
+    }
+});
+```
+* 8.To start the server run the following command and keep the terminal alive.
 
   ```
   node server.js
